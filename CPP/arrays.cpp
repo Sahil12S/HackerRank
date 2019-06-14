@@ -9,9 +9,9 @@
 #include <algorithm>
 using namespace std;
 
-
-int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+int main()
+{
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int n;
     std::cin >> n;
     std::vector<int> arr(n);
@@ -21,7 +21,7 @@ int main() {
         std::cin >> arr[i];
     }
 
-    for (int i = 0; i < n/2; i++)
+    for (int i = 0; i < n / 2; i++)
     {
         std::swap(arr[i], arr[n - 1 - i]);
     }
@@ -30,7 +30,7 @@ int main() {
     {
         cout << arr[i] << " ";
     }
-    
+
     cout << arr[n - 1] << endl;
     return 0;
 }

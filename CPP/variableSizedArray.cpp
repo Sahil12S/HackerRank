@@ -9,9 +9,9 @@
 #include <algorithm>
 using namespace std;
 
-
-int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+int main()
+{
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int n;
     cin >> n;
     vector<vector<int>> vec(n);
